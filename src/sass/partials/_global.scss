@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: $color-dark;
+  font-family: $font-text;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: $font-normal;
+  color: $color-dark;
+}
+
+.visible {
+  display: block;
+}
+
+.pages {
+  > * {
+    display: none;
+  }
+
+  > .active {
+    display: block;
+  }
+}

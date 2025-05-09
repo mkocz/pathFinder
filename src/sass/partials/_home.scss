@@ -1,0 +1,93 @@
+.background-image {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent),
+    url("../images/background.jpg") center/cover no-repeat;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+nav {
+  padding-top: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: $color-light;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 2em;
+}
+
+header {
+  padding-top: 10em;
+  text-align: right;
+  width: 80%;
+  margin: auto;
+}
+
+h1,
+h2,
+h3 {
+  color: $color-light;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h1 {
+  letter-spacing: 0.5em;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h3 {
+  letter-spacing: 0.1em;
+  margin-right: 1.5em;
+  text-align: end;
+}
+
+.text-wrapper,
+.text-section-wrapper {
+  width: fit-content;
+  margin: auto;
+}
+
+.text-section-wrapper1 {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+}
+
+.text-section-wrapper2 {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.section1,
+.section2 {
+  position: relative;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+.section2 {
+  margin-top: 5%;
+}
+
+section img {
+  width: 50%;
+}
+
+.image2 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: 5%;
+  display: block;
+}
+
+footer {
+  color: $color-light;
+  padding-block: 2em;
+  text-align: center;
+}
