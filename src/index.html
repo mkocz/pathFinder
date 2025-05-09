@@ -8,8 +8,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,600;1,600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" 
     rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -27,18 +28,18 @@
   </header>
   <div class="pages">
     <div id="about">
-      <section class="section1">
-        <img class="image1" src="images/1.jpg" alt="">
+      <section class="section">
+        <img data-aos="fade-up" class="image1" src="images/1.jpg" alt="">
         <div class="text-section-wrapper1">
           <h2>Plan your journeys</h2>
-          <h3>Peak attractions and book hotels</h3>
+          <h4>Peak attractions and book hotels</h4>
         </div>
       </section>
-      <section class="section2">
-        <img class="image2" src="images/2.jpg" alt="">
+      <section class="section">
+        <img  data-aos="fade-up" class="image2" src="images/2.jpg" alt="">
         <div class="text-section-wrapper2">
           <h2>Minimalize boredom</h2>
-          <h3>Peak routes that are short and attractive</h3>
+          <h4>Peak routes that are short and attractive</h4>
         </div>
       </section>
     </div>
@@ -61,6 +62,11 @@
   <footer>
     All rights reserverd.
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js">
+  </script>
+      <!-- <script>
+        AOS.init();
+      </script> -->
   <script src="js/app.js" type="module"></script>
 </body>
 

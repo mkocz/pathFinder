@@ -1,6 +1,7 @@
 import { select, classNames } from './settings.js';
 import Finder from './finder.js';
 
+
 const app = {
     initPages: function () {
         const thisApp = this;
@@ -64,6 +65,8 @@ const app = {
     init: function () {
         const thisApp = this;
 
+        // eslint-disable-next-line no-undef
+        AOS.init();
         thisApp.initPages();
         thisApp.createGrid();
         new Finder(thisApp.fidnerContainer);
